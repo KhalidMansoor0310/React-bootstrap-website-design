@@ -1,0 +1,35 @@
+.img_of_circle {
+  height: 30px;
+  width: 30px;
+}
+
+.left_img_col {
+  position: relative;
+  border: 3px solid red;
+}
+
+.left_img_button {
+  position: absolute;
+  top: 95%;
+  left: 32%;
+  width: 210px;
+  border-radius: 50px !important;
+  padding: 16px 24px;
+  background-color: rgb(249, 249, 46);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+@media (max-width: 500px) {
+  .left_img_button {
+    top: 93%;
+    left: 22%;
+  }
+}
+@media (min-width: 576px) {
+  .left_img_button {
+    top: 95%;
+    left: 32%;
+  }
+}

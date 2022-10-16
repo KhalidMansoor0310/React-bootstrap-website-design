@@ -1,0 +1,7 @@
+.bg_img {
+  background: url("../img/Bg.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}

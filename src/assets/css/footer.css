@@ -1,0 +1,13 @@
+.main_container {
+  background-color: rgb(46, 117, 113);
+}
+
+.footer_button {
+  padding: 16px 24px;
+  background-color: rgb(249, 249, 46);
+  font-size: 24px;
+  font-weight: bold;
+  width: 300px;
+  border-radius: 50px;
+  border: none;
+}

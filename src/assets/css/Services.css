@@ -1,0 +1,21 @@
+.left_services_col img {
+  height: 50px;
+  width: 50px;
+}
+.left_services_col p {
+  font-size: 15px;
+}
+
+.services_btn {
+  position: absolute;
+  top: 100%;
+  left: 19%;
+  width: 200px;
+  border-radius: 26px;
+  padding: 10px 30px;
+  font-size: 24px;
+}
+.number_img img {
+  height: 80%;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.section_gallery {
+  background-color: rgb(18, 18, 18);
+}
+.three_img_row {
+  border: 3px solid red;
+}
+
+.img_top {
+  height: 380px;
+  width: 81%;
+}
+/* .gallery_img_1 img {
+  height: 100%;
+  width: 100%;
+  margin-left: 90px;
+}
+.gallery_img_2 img {
+  height: 50%;
+  width: 65%;
+  margin-left: 22%;
+} */

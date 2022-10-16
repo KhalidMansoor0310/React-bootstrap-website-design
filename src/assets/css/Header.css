@@ -1,0 +1,150 @@
+.background_img {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+}
+
+.onbanner_img {
+  position: absolute;
+  height: 400px;
+  width: auto;
+  margin-top: 200px;
+  margin-left: -100px;
+}
+.hero_section_text {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+}
+.form_row .right_div_para {
+  background-color: rgb(78, 133, 84);
+}
+.right_form_div {
+  margin-top: -300px;
+}
+/* .right_form_div h2 {
+  margin-bottom: 20px;
+  font-weight: bold !important;
+}
+.right_form_div p {
+  font-weight: bold;
+}
+*/
+.hero_section_text p > span {
+  background-color: rgb(78, 133, 84);
+  color: white;
+  padding: 5px;
+}
+.form_row .right_div_para .yellow_btn {
+  border-radius: 50px;
+  background-color: rgb(249, 249, 46);
+  border: none;
+}
+.fa-check {
+  color: rgb(78, 133, 84);
+}
+.form_down_arrow img {
+  height: 100px;
+  width: auto;
+}
+.left_div_para h4 {
+  color: rgb(78, 133, 84);
+}
+
+@media (max-width: 576px) {
+  .background_img {
+    opacity: 1;
+    height: 400px;
+  }
+
+  .onbanner_img {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .right_form_div {
+    margin-top: 70px;
+  }
+  .right_form_div h1 {
+    margin-bottom: 10px;
+  }
+  .background_img {
+    opacity: 0.4;
+  }
+  .hero_section_text {
+    top: 18%;
+    left: 20%;
+  }
+  .hero_section_text p {
+    text-align: left;
+  }
+}
+
+@media (min-width: 576px) {
+  .onbanner_img {
+    position: absolute;
+    height: 325px;
+    width: auto;
+    top: 7%;
+    left: 31%;
+  }
+}
+@media (min-width: 768px) {
+  .onbanner_img {
+    position: absolute;
+    height: 400px;
+    width: auto;
+    top: 9%;
+    left: 21%;
+  }
+}
+
+@media (min-width: 992px) {
+  .onbanner_img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    top: 12%;
+    left: 5%;
+  }
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .onbanner_img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    top: 8%;
+    left: 12%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .onbanner_img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    top: 8%;
+    left: 17%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .onbanner_img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    top: 5%;
+    left: 16%;
+  }
+  .hero_section_text {
+    top: 15%;
+    left: 57%;
+  }
+  .hero_section_text p {
+    text-align: left;
+  }
+}
