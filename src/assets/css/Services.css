@@ -19,3 +19,54 @@
   height: 80%;
   width: 100%;
 }
+.img_button {
+  position: absolute;
+  top: 95%;
+  left: 32%;
+  width: 210px;
+  border-radius: 50px !important;
+  padding: 16px 24px;
+  background-color: rgb(249, 249, 46);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+@media (max-width:375px) {
+  
+  .img_button{
+    top: 99%;
+    left: 21%;
+  }
+}
+
+@media (max-width:768px) {
+  .number_img img{
+    width: 100%;
+    height: 45%;
+  }
+  .img_button{
+    top: 99%;
+    left: 29%;
+  }
+}
+@media (max-width:992px) {
+  
+  .img_button{
+    top: 99%;
+    left: 40%;
+  }
+}
+@media (max-width:1200px) {
+  
+  .img_button{
+    top: 99%;
+    left: 27%;
+  }
+}
+@media (max-width:1400px) {
+  
+  .img_button{
+    top: 100%;
+    left: 28%;
+  }
+}

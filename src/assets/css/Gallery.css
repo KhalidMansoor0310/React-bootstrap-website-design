@@ -1,21 +1,119 @@
-.section_gallery {
-  background-color: rgb(18, 18, 18);
-}
-.three_img_row {
-  border: 3px solid red;
-}
-
-.img_top {
-  height: 380px;
-  width: 81%;
-}
-/* .gallery_img_1 img {
-  height: 100%;
+.wrapper_gallery {
+  margin-top: 80px;
   width: 100%;
-  margin-left: 90px;
+  background-color: black;
 }
-.gallery_img_2 img {
-  height: 50%;
-  width: 65%;
-  margin-left: 22%;
-} */
+.main {
+  flex-direction: column;
+  margin: auto;
+}
+.gallery_heading1 {
+  margin: auto;
+  margin-top: 50px !important;
+}
+.gallery_para {
+  margin-top: 30px !important;
+  margin: auto;
+  width: 650px;
+}
+.gallery_para_center {
+  margin-left: 100px;
+}
+.above_image {
+  margin: auto;
+  width: 900px;
+  object-position: center;
+  margin-top: 30px !important;
+}
+.left {
+  height: 300px;
+  object-fit: cover;
+  width: 370px;
+  object-position: center;
+}
+.right {
+  object-fit: cover;
+  width: 510px;
+  object-position: center;
+  height: 300px;
+  margin-left: 20px;
+}
+.left_right_image {
+  margin-top: 30px !important;
+  /* margin-left: 220px; */
+  display: flex;
+  margin: auto;
+}
+@media screen and (max-width: 992px) {
+  .above_image {
+    width: 700px;
+  }
+  .left {
+    width: 270px;
+  }
+  .right {
+    width: 410px;
+  }
+  .gallery_para {
+    margin-top: 30px !important;
+    margin: auto;
+    width: 550px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .above_image {
+    width: 500px;
+  }
+  .left {
+    width: 170px;
+  }
+  .right {
+    width: 310px;
+  }
+  .gallery_para {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .above_image {
+    width: 350px;
+    height: 300px;
+  }
+  .left {
+    width: 350px;
+    margin: auto;
+  }
+  .right {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .left_right_image {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery_para {
+    width: 280px;
+    font-size: 14px;
+  }
+  .gallery_heading {
+    font-size: 20px !important;
+  }
+}
+@media screen  and (max-width:380px){
+  .above_image{
+  object-fit: cover;
+    width: 270px;
+  }
+  .left {
+    width: 270px;
+    height: 250px;
+  }
+  .right {
+    width: 270px;
+    height: 250px;
+  }
+  .gallery_heading {
+    font-size: 17px !important;
+  }
+}

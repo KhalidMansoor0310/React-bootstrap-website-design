@@ -7,6 +7,7 @@ function Header() {
   return (
     <>
       {/* <div className="container-fluid "> */}
+      
       <img src={banner1} alt="" className="background_img" />
       <img src={onbanner} className="onbanner_img" alt="" />
       <div className="hero_section_text mt-2">

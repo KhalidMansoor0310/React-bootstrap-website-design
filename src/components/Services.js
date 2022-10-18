@@ -59,6 +59,7 @@ function Services() {
         </div>
         <div className="col-12 col-lg-6  col-sm-12 service_img d-flex justify-content-center align-items-center my-5 p-2">
           <img src={welk_img} className="" alt="" />
+          <button className="img_button">See More</button>
           {/* <button className="btn btn-warning services_btn">Click</button> */}
         </div>
       </div>

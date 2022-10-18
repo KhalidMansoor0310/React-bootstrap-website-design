@@ -11,13 +11,13 @@ const AdminView = (props) => {
   return (
     <>
       <Header />
-      <Background />
-      <Offer />
-      <Gallery />
-      <Services />
-      <Background2 />
-      <OurTeam />
-      <Lorem />
+      <Background /> 
+       <Offer /> 
+       <Gallery /> 
+      <Services /> 
+      <Background2 /> 
+       <OurTeam /> 
+       <Lorem />
     </>
   );
 };

@@ -1,39 +1,29 @@
 import React from "react";
-import img1 from "../assets/img/3.jpg";
-import img2 from "../assets/img/2.jpg";
-import img3 from "../assets/img/1.jpg";
 import "../assets/css/Gallery.css";
-function Gallery() {
+import above from "../assets/img/1.jpg";
+import left from "../assets/img/2.jpg";
+import right from "../assets/img/3.jpg";
+const Gallery = () => {
   return (
-    <div className="container-fluid section_gallery">
-      <div className="container">
-        <div className="row">
-          <h1 className="text-center text-white p-4 text-secondary">
-            Onze realisaties
-          </h1>
-          <h4 className="text-center m-auto text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </h4>
-          <span className="text-white text-center py-3 w-50 m-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            temporibus voluptates aut illo, doloremque odio reiciendis quidem
-            commodi eum ea soluta
-          </span>
+    <div className="wrapper_gallery">
+      <div className="d-flex  main ">
+        <p className="h3  gallery_heading1 my-3">Onze realisaties</p>
+        <p className="h4 gallery_heading m-auto mt-3 text-white">
+          Enkel het beste is goed genoeg
+        </p>
+        <p className="gallery_para text-white text-justify">
+          Each breakpoint was chosen to comfortably hold containers whose widths
+          are multiples of 12. Breakpoints are also representative of a subset
+          of common device sizes and <br />
+         
+        </p>
+       <img src={above} alt="" className="above_image" />
+        <div className="left_right_image mb-5">
+          <img src={left} className="left" />
+          <img src={right} className="right" />
         </div>
-        <div className="row my-4 m-auto">
-          <img src={img3} className="img_top" alt="" />
-        </div>
-        <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-4 col-lg-4 col-md-12  col-sm-12 p-2  my-2 gallery_img_1 ">
-            <img src={img2} alt="" />
-          </div>
-          <div className="col-8 col-lg-8 col-sm-12 p-2 my-2  gallery_img_2">
-            <img src={img1} alt="" />
-          </div>
-        </div>{" "}
       </div>
     </div>
   );
-}
-
+};
 export default Gallery;
