@@ -3,7 +3,7 @@ import "../assets/css/lorem.css";
 import img from "../assets/img/team.jpg";
 function Lorem() {
   return (
-    <div className="team py-4">
+    <div className="team py-4 bg-light">
       <div className="my-5 text-center container">
         <div className=" col-md-6 offset-md-3">
           <h1 className="heading mb-0">Ons team</h1>

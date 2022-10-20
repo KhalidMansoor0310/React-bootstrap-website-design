@@ -2,6 +2,8 @@ import React from "react";
 import one from "../assets/img/one.png";
 import two from "../assets/img/two.png";
 import three from "../assets/img/three.png";
+import four from "../assets/img/four.png";
+
 import welk_img from "../assets/img/WelkePremies-right.png";
 import "../assets/css/Services.css";
 function Services() {
@@ -11,7 +13,9 @@ function Services() {
         <div className="row my-5">
           <div className="text-success col-md-11">
             <div className="container">
-              <h3>Welke premies zijn er voor gevelrenovatie?</h3>
+              <h3 style={{ color: "#009972" }}>
+                Welke premies zijn er voor gevelrenovatie?
+              </h3>
             </div>
           </div>
         </div>
@@ -53,6 +57,21 @@ function Services() {
               <div className="row mb-4">
                 <div className="col-3">
                   <img src={three} className="number_img" alt="" />
+                </div>
+                <div className="col-9">
+                  <h6 className="fw-bold">
+                    Premie voor gevelisolatie (Fluvius)
+                  </h6>
+                  <p className="Services-text__paragraph text-muted">
+                    Combineer je gevel- of spouwmuurisolatie met 2 andere
+                    energiebesparende maatregelen? Dan kom je in aanmerking voor
+                    de Totaalrenovatiebonus. Die kan oplopen tot € 4.750.
+                  </p>
+                </div>
+              </div>
+              <div className="row mb-4">
+                <div className="col-3">
+                  <img src={four} className="number_img" alt="" />
                 </div>
                 <div className="col-9">
                   <h6 className="fw-bold">

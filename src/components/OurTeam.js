@@ -7,10 +7,10 @@ function Courses() {
     <section className="container py-5">
       <div className="row mt-5">
         {/* columns for right side */}
-        <div className="col-md-5 offset-md-2">
+        <div className="col-md-5 offset-md-1">
           <div>
             <h3 className="heading">onzetroeven</h3>
-            <p className="paragraph__underHeading">
+            <p className="paragraph__underHeading text-muted">
               Bij Cralux wordt elk project gewaardeerd. Van het eerste contact
               tot de oplevering maken wij het verschil dankzij onze toegewijde
               vakmannen en onklopbare prijs-kwaliteit!
@@ -22,7 +22,7 @@ function Courses() {
             </div>
             <div className="col-10 p-0">
               <h5 className="TextHeading">Toegewijde vakmannen</h5>
-              <p className="paragraph__underHeading">
+              <p className="paragraph__underHeading text-muted">
                 {" "}
                 Aan onze toegewijde werknemers bieden we een open werkomgeving
                 die creativiteit, tolerantie, professionele ontwikkeling en
@@ -36,7 +36,7 @@ function Courses() {
             </div>
             <div className="col-10 p-0">
               <h5 className="TextHeading">Uitgebreid aanbod</h5>
-              <p className="paragraph__underHeading">
+              <p className="paragraph__underHeading text-muted">
                 {" "}
                 We voorzien van een groot aanbod van diensten in de bouw. We
                 gebruiken onze jarenlange ervaring en technische kennis om{" "}
@@ -51,7 +51,7 @@ function Courses() {
               <h5 className="TextHeading">
                 <u>Actie</u>: 50% korting op blauwsteen gevelplint{" "}
               </h5>
-              <p className="paragraph__underHeading">
+              <p className="paragraph__underHeading text-muted">
                 {" "}
                 Cralux staat niet alleen voor kwaliteit: wij denken ook aan je
                 budget. Daarom geven wij nu de{" "}
