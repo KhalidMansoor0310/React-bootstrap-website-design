@@ -4,73 +4,69 @@ import img1 from "../assets/img/OnzeTroeven.jpg";
 import "../assets/css/ourteam.css";
 function Courses() {
   return (
-    <section className="container my-5 ">
-      <div className="row">
+    <section className="container py-5">
+      <div className="row mt-5">
         {/* columns for right side */}
-        <div className="col-12 col-lg-6 col-sm-12 team_left_col">
-          <h1 className="my-3 text-success">Onze Troeven</h1>
-          <p align="justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus esse
-            deleniti facilis.
-          </p>
-
+        <div className="col-md-5 offset-md-2">
+          <div>
+            <h3 className="heading">onzetroeven</h3>
+            <p className="paragraph__underHeading">
+              Bij Cralux wordt elk project gewaardeerd. Van het eerste contact
+              tot de oplevering maken wij het verschil dankzij onze toegewijde
+              vakmannen en onklopbare prijs-kwaliteit!
+            </p>
+          </div>
           <div className="row">
-            <div className="col-2 circle_img p-3">
+            <div className="col-2 text-center circle_img">
               <img src={circle} alt="" />
             </div>
-            <div className="col-10">
-              <h3>heading 1</h3>
-              <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
+            <div className="col-10 p-0">
+              <h5 className="TextHeading">Toegewijde vakmannen</h5>
+              <p className="paragraph__underHeading">
+                {" "}
+                Aan onze toegewijde werknemers bieden we een open werkomgeving
+                die creativiteit, tolerantie, professionele ontwikkeling en
+                zekerheid aanmoedigt. Op die manier leveren wij
               </p>
             </div>
           </div>
           <div className="row">
-            <div className="col-2 circle_img p-3">
+            <div className="col-2 text-center circle_img">
               <img src={circle} alt="" />
             </div>
-            <div className="col-10">
-              <h3>heading 1</h3>
-              <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
+            <div className="col-10 p-0">
+              <h5 className="TextHeading">Uitgebreid aanbod</h5>
+              <p className="paragraph__underHeading">
+                {" "}
+                We voorzien van een groot aanbod van diensten in de bouw. We
+                gebruiken onze jarenlange ervaring en technische kennis om{" "}
               </p>
             </div>
           </div>
           <div className="row">
-            <div className="col-2 circle_img p-3">
+            <div className="col-2 text-center circle_img">
               <img src={circle} alt="" />
             </div>
-            <div className="col-10">
-              <h3 align="justify">heading 1</h3>
-              <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-2  circle_img">
-              <img src={circle} alt="" />
-            </div>
-            <div className="col-10">
-              <h3>heading 1</h3>
-              <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
+            <div className="col-10 p-0">
+              <h5 className="TextHeading">
+                <u>Actie</u>: 50% korting op blauwsteen gevelplint{" "}
+              </h5>
+              <p className="paragraph__underHeading">
+                {" "}
+                Cralux staat niet alleen voor kwaliteit: wij denken ook aan je
+                budget. Daarom geven wij nu de{" "}
+                <b>gevelplint in kwalitatieve blauwsteen aan halve prijs!</b>
               </p>
             </div>
           </div>
         </div>
-        {/* columns for an image */}
-        <div className="col-12 col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center align-items-center">
-          <img src={img1} alt="" className="team_img" />
-          <button className="ourteam_btn">Click</button>
+        <div className="col-md-5 align-self-center">
+          <div className="text-center">
+            <img src={img1} className="team_img" alt="" />
+            <button className="btn p-2 px-4 btnBg mx-4 btn-warning rounded-pill">
+              <span>Ontvang uw offerte »</span>
+            </button>
+          </div>
         </div>
       </div>
     </section>

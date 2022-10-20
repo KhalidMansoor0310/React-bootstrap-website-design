@@ -4,19 +4,25 @@ import "../assets/css/footer.css";
 function Footer() {
   return (
     <>
-      <div className="container-fluid  text-white m-auto main_container">
-        <div className="container">
-          <div className="row d-flex justify-content-space align-items-center">
-            <div className="col-md-6 footer_text my-5">
-              <h1>Gevel renoveren?</h1>
+      <div className="pb-3 pt-3 renovern">
+        <div className="my-5 text-white container">
+          <div className="row">
+            <div className="col-md-5 offset-md-2">
+              <h3 >Gevel renoveren?</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatem, facere excepturi quidem perferendis repellendus
-                sint!
+                {" "}
+                Cralux staat voor u klaar. Krijg persoonlijk advies en info over
+                alle premies en ontvang uw gratis prijsofferte, inclusief onze{" "}
               </p>
+              <b> tijdelijke actie!</b>
             </div>
-            <div className="col-md-6 col-sm-12 mb-3">
-              <button className=" footer_button py-3 ">Show more</button>
+            <div className="col-md-3 offset-md-1 text-center">
+              <a
+                href=""
+                className="btn btnBg p-3 px-5 px-md-3 text-dark mt-5 btn-warning rounded-pill"
+              >
+                <span>Krijg uw korting »</span>
+              </a>
             </div>
           </div>
         </div>

@@ -8,59 +8,71 @@ function Services() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-12 col-lg-6 col-sm-12 my-5 left_services_col">
-          <h2 className="text-success">
-            Welke premise zijn er voor gevelrenovatie
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            deleniti quisquam eaque similique eveniet atque mollitia tempora
-            incidunt eius maxime?
-          </p>
-          <div className="row">
-            <div className="col-2 number_img p-3">
-              <img src={one} alt="" />
-            </div>
-            <div className="col-10">
-              <h3>heading</h3>
-              <p align="justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-2 number_img  p-3">
-              <img src={two} alt="" />
-            </div>
-            <div className="col-10">
-              <h3>heading </h3>
-              <p align="justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-2 number_img p-3">
-              <img src={three} alt="" />
-            </div>
-            <div className="col-10">
-              <h3>heading </h3>
-              <p align="justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
-              </p>
+        <div className="row my-5">
+          <div className="text-success col-md-11">
+            <div className="container">
+              <h3>Welke premies zijn er voor gevelrenovatie?</h3>
             </div>
           </div>
         </div>
-        <div className="col-12 col-lg-6  col-sm-12 service_img d-flex justify-content-center align-items-center my-5 p-2">
-          <img src={welk_img} className="" alt="" />
-          <button className="img_button">See More</button>
-          {/* <button className="btn btn-warning services_btn">Click</button> */}
+        <div className="my-5 container">
+          <div className="row">
+            <div className="mb-5 col-md-5 offset-md-1 ">
+              <div className="row mb-4">
+                <div className="col-3">
+                  <img src={one} className="number_img" alt="" />
+                </div>
+                <div className="col-9">
+                  <h6 className="fw-bold">
+                    Premie voor gevelisolatie (Fluvius)
+                  </h6>
+                  <p className="Services-text__paragraph text-muted">
+                    {" "}
+                    De netbeheerder Fluvius reikt een premie uit voor
+                    buitenmuurisolatie (langs buiten) van € 30 per m². Heb je
+                    uitsluitend nachttarief? Dan loopt dit op tot maar liefst €
+                    45 per m².{" "}
+                  </p>
+                </div>
+              </div>
+              <div className="row mb-4">
+                <div className="col-3">
+                  <img src={two} className="number_img" alt="" />
+                </div>
+                <div className="col-9">
+                  <h6 className="fw-bold">
+                    Premie voor gevelisolatie (Fluvius)
+                  </h6>
+                  <p className="Services-text__paragraph text-muted">
+                    De Vlaamse renovatiepremie deelt een gevelrenovatie in onder
+                    Categorie 1 (de structurele elementen). Dankzij deze premie
+                    wordt 20% of 30% van je uitgaven terugbetaald
+                  </p>
+                </div>
+              </div>
+              <div className="row mb-4">
+                <div className="col-3">
+                  <img src={three} className="number_img" alt="" />
+                </div>
+                <div className="col-9">
+                  <h6 className="fw-bold">
+                    Premie voor gevelisolatie (Fluvius)
+                  </h6>
+                  <p className="Services-text__paragraph text-muted">
+                    Combineer je gevel- of spouwmuurisolatie met 2 andere
+                    energiebesparende maatregelen? Dan kom je in aanmerking voor
+                    de Totaalrenovatiebonus. Die kan oplopen tot € 4.750.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-5 text-center">
+              <img src={welk_img} style={{ width: "80%" }} alt="" />
+              <button className="btn p-3 px-5 btnBg text-dark mt-4 btn-warning rounded-pill">
+                <span>Krijg tot 4 premies »</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

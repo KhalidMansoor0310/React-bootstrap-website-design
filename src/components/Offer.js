@@ -4,60 +4,95 @@ import OnsAanbod from "../assets/img/OnsAanbod.jpg";
 import "../assets/css/Offer.css";
 function Offer() {
   return (
-    <div className="container my-5">
-      <div className="row">
-        <div className=" my-2 col-lg-6 col-sm-12 left_img_col d-flex align-items-center justify-content-center ">
-          <img src={OnsAanbod} className="col-sm-12" alt="" />
-          <button className="left_img_button">See More</button>
-        </div>
-        <div className="col-12 my-5 col-lg-6 col-sm-12 right_side_col">
-          <h2 className="text-success">Ons Aanbod</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo id qui
-            dolorum accusamus nostrum temporibus.
-          </p>
-          <div className="row">
-            <div className="col-2 p-3">
-              <img src={circle} className="img_of_circle" alt="" />
-            </div>
-            <div className="col-10">
-              <h3>heading 1</h3>
-              <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
-              </p>
+    <>
+      <div className="my-5 container">
+        <div className="row">
+          <div className="mt-4 col-md-4 offset-md-2">
+            <div className="text-center">
+              <img
+                src={OnsAanbod}
+                style={{ width: "85%", height: "335px" }}
+                alt=""
+              />
+              <button className="btn p-3 px-5 px-md-3 btnBg text-dark mx-5 btn-warning rounded-pill">
+                <span>Ontvang uw offerte »</span>
+              </button>
             </div>
           </div>
-          <div className="row">
-            <div className="col-2 p-3">
-              <img src={circle} className="img_of_circle" alt="" />
-            </div>
-            <div className="col-10">
-              <h3>heading 1</h3>
-              <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
+          <div className="col-md-5">
+            <div>
+              <h3 className="heading">Ons aanbod</h3>
+              <p className="underHeading text-muted">
+                Onze vakmannen werken enkel met topproducten. Daarnaast hebben
+                we vanuit onze expertise een eigen productielijn voor
+                siliconencrepi ontwikkeld. Omdat we 100% vertrouwen op onze
+                kwaliteit, geniet jij als klant van 10 jaar garantie op
+                structurele gebreken.
               </p>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-2 p-3">
-              <img src={circle} className="img_of_circle" alt="" />
+            <div className="row">
+              <div className="col-2 text-center circle_img">
+                <img src={circle} alt="" />
+              </div>
+              <div className="col-10 p-0">
+                <h5 className="leftTextheading">Capaciteit</h5>
+                <p className="underHeading text-muted">
+                  {" "}
+                  Aan onze toegewijde werknemers bieden we een open werkomgeving
+                  die creativiteit, tolerantie, professionele ontwikkeling en
+                  zekerheid aanmoedigt. Op die manier leveren wij
+                </p>
+              </div>
             </div>
-            <div className="col-10">
-              <h3>heading 1</h3>
-              <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                minima, quo ipsa hic dolorem quisquam laborum consequuntur velit
-                sed sit.
-              </p>
+            <div className="row">
+              <div className="col-2 text-center circle_img">
+                <img src={circle} alt="" />
+              </div>
+              <div className="col-10 p-0">
+                <h5 className="leftTextheading">Kwaliteit</h5>
+                <p className="underHeading text-muted">
+                  Dankzij onze grote stock en onze ervaren plaasters, realiseren
+                  wij iedere maand minstens 30 projecten en renoveren we zon
+                  5000m2 aan gevel- en dakoppervlakte. Heb je een nieuwbouw- of
+                  renovatieproject voor Cralux? Wij kunnen snel schakelen in
+                  onze planning.
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-2 text-center circle_img">
+                <img src={circle} alt="" />
+              </div>
+              <div className="col-10 p-0">
+                <h5 className="leftTextheading">Oplevertijd </h5>
+                <p className="underHeading text-muted">
+                  Onze vakmannen werken enkel met topproducten. Daarnaast hebben
+                  we vanuit onze expertise een eigen productielijn voor
+                  siliconencrepi ontwikkeld. Omdat we 100% vertrouwen op onze
+                  kwaliteit, geniet jij als klant van 10 jaar garantie op
+                  structurele gebreken.
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-2 text-center circle_img">
+                <img src={circle} alt="" />
+              </div>
+              <div className="col-10 p-0">
+                <h5 className="leftTextheading">Service </h5>
+                <p className="underHeading text-muted">
+                  n elke provincie in Belgie heeft Cralux lokale bouwadviseurs
+                  die hun tijd nemen voor een goed gesprek en een grondige
+                  gevelinspectie. Ook onze bouwteams beschikken over eigen
+                  stellingen, professionele producten en de nieuwste machines om
+                  de werken uit te voeren. Topservice gegarandeerd!
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -1,13 +1,38 @@
 .main_container {
-  background-color: rgb(46, 117, 113);
+  background-color: rgb(47, 120, 64);
+}
+.footer_button{
+  margin-top: 30px;
 }
 
-.footer_button {
-  padding: 16px 24px;
+.footer_button button{
+  padding: 14px 20px;
   background-color: rgb(229, 229, 57);
   font-size: 24px;
   font-weight: bold;
   width: 300px;
   border-radius: 50px;
   border: none;
+
+
+}
+.btnBg{
+  background: #ff0!important;
+  border: #ff0!important;
+  font-weight: 700!important;
+  margin-top: -30px;
+  margin-right: 35px;
+}
+.rouunded-pill{
+  border-radius: 50rem!important
+}
+.renovern{
+  background: #008765;
+}
+
+@media (max-width:576px){
+  .footer_button button{
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
 }

@@ -11,13 +11,14 @@ const Gallery = () => {
         <p className="h4 gallery_heading m-auto mt-3 text-white">
           Enkel het beste is goed genoeg
         </p>
-        <p className="gallery_para text-white text-justify">
-          Each breakpoint was chosen to comfortably hold containers whose widths
-          are multiples of 12. Breakpoints are also representative of a subset
-          of common device sizes and <br />
-         
+        <p className="gallery_para text-center text-white text-justify">
+          LWe begrijpen dat onze gerealiseerde projecten niet enkel gebouwen
+          vertegenwoordigen maar ook plannen vormen voor onze toekomstige
+          klanten. We gebruiken bekende technieken en technologien om onze
+          maximale potentieel te bereiken.
+          <br />
         </p>
-       <img src={above} alt="" className="above_image" />
+        <img src={above} alt="" className="above_image" />
         <div className="left_right_image mb-5">
           <img src={left} className="left" />
           <img src={right} className="right" />

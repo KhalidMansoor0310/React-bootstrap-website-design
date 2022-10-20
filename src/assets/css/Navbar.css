@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   color: black;
+  margin-right: 30px;
 }
 .custom_btn {
   background-color: rgb(78, 133, 84);

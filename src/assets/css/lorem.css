@@ -1,3 +1,10 @@
 .main_section {
   background: #f5f5f5;
 }
+
+.paragraph__underHeading {
+  font-size: 12px;
+}
+.heading {
+  color: #009972;
+}

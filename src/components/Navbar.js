@@ -23,17 +23,17 @@ function Navbar() {
           <ul className="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#">
-                Home
+                Ons aanbod
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Features
+                Onze realisaties
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Services
+                OnzeTroeven
               </a>
             </li>
             <li className="nav-item">
@@ -43,7 +43,7 @@ function Navbar() {
                 tabindex="-1"
                 aria-disabled="true"
               >
-                Team
+                Onze team
               </a>
             </li>
             <li className="nav-item">
