@@ -1,4 +1,1 @@
-# React Boilerplate
-
-All neccessary files setup completed and ready to start.
-**Kindly follow structure**
+https://vermillion-treacle-3552c1.netlify.app/
